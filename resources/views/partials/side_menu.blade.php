@@ -11,7 +11,7 @@
     </li>
     <li class="app_side_menu_item"  >
       <a href="/entryProduct">
-        <img src="{{asset("/imgs/entry_product.png")}}/imgs/entry_product.png" alt="Nhập Hàng">入荷
+        <img src="{{asset("/imgs/entry_product.png")}}" alt="Nhập Hàng">入荷
       </a>
     </li>
     <li class="app_side_menu_item" >

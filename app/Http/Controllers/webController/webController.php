@@ -18,5 +18,16 @@ class webController extends Controller
         // Trả về view 'home' cùng với các biến này
         return view('home', compact('today', 'numberOfOrdersToday', 'orderDifference', 'priceToday', 'priceDifference'));
     }
+    public function storage(){
+        return view("storage");
+    }
+
+    public function entryProduct(){
+        return view("entryProduct");
+    }
+
+    public function sales(){
+        return view("sales");
+    }
 
 }
